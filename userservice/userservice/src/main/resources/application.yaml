@@ -10,4 +10,10 @@ spring:
       ddl-auto: update
       database-platform: org.hibernate.dialect.PostgreSQLDialect
 
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: always
+
 
